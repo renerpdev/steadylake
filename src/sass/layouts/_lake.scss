@@ -1,0 +1,9 @@
+#lake {
+  position: relative;
+  min-width: 100%;
+  height: $lake_height;
+  min-height: $lake_height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

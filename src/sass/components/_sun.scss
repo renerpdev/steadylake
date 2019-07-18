@@ -1,0 +1,10 @@
+.sun{
+  position: absolute;
+  top: 2.5rem;
+  left: 50%;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  background-color: $yellow;
+  animation: shine 3s ease-in-out infinite;
+}

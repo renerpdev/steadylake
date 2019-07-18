@@ -1,0 +1,15 @@
+#wrapper {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #content {
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    height: $content-height;
+    width: $content-width;
+  }
+}

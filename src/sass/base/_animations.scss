@@ -1,0 +1,23 @@
+@keyframes translate-horz {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100vw;
+  }
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 35px 3px $yellow;
+  }
+
+  50% {
+    box-shadow: 0 0 10px 1px $yellow;
+  }
+
+  100% {
+    box-shadow: 0 0 35px 3px $yellow;
+  }
+}

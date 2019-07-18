@@ -1,0 +1,26 @@
+$primary_color: #546E7A;
+$secondary_color: #78909C;
+$tertiary_color: #90A4AE;
+$black_color: #263238;
+$grey_color: #ECEFF1;
+$white_color: #FAFAFA;
+
+$light-green: #1abd77;
+$green: #2dad70;
+$dark-green: #296f4e;
+$blue: #2d9ead;
+$orange: #ffa55b;
+$maroon: #924444;
+$yellow: #e9ec31;
+
+// CONTENT
+$content-height-token: .8;
+$content-width-token: .7;
+
+// HEIGHTS
+$sky-height: 60%;
+$lake-height: 100% - $sky-height;
+$content-height: percentage($content-height-token);
+
+// WIDTHS
+$content-width: percentage($content-width-token);

@@ -1,0 +1,32 @@
+$size: 5rem;
+
+.cloud {
+  position: relative;
+  transform: translateX(-100%);
+  z-index: 998;
+  height: $size;
+  width: $size + 1.5rem;
+  background-color: white;
+  border-radius: 60%;
+  opacity: .8;
+  display: block;
+  animation: translate-horz 50s linear infinite;
+
+  &::after {
+    top: 40%;
+    content: '';
+    position: absolute;
+    height: $size - 1.5rem;
+    width: $size;
+    border-radius: 60%;
+    background-color: white;
+  }
+
+  &::after {
+    left: -2rem;
+  }
+
+  &::before {
+    //right: -2rem;
+  }
+}
