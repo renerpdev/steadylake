@@ -21,3 +21,39 @@
     box-shadow: 0 0 35px 3px $yellow;
   }
 }
+
+@keyframes change-sky-bg-color {
+  0% {
+    background-color: $sky_color;
+  }
+  25% {
+    background-color: darken($sky_color, 25);
+  }
+  50% {
+    background-color: $black_color
+  }
+  75% {
+    background-color: darken($sky_color, 25);
+  }
+  100% {
+    background-color: $sky_color;
+  }
+}
+
+@keyframes change-water-bg-color {
+  0% {
+    background-color: $water_color;
+  }
+  25% {
+    background-color: darken($water_color, 5);
+  }
+  50% {
+    background-color: darken($water_color, 10);
+  }
+  75% {
+    background-color: darken($water_color, 5);
+  }
+  100% {
+    background-color: $water_color;
+  }
+}

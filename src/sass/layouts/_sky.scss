@@ -2,5 +2,6 @@
   position: relative;
   height: $sky-height;
   max-height: $sky-height;
-  background-color: $orange;
+  background-color: $sky_color;
+  animation: change-sky-bg-color 50s ease-in-out infinite;
 }
