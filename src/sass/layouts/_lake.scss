@@ -1,6 +1,7 @@
 #lake {
   position: relative;
   min-width: 100%;
+  z-index: 6;
   height: $lake_height;
   min-height: $lake_height;
   display: flex;

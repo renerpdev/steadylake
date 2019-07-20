@@ -3,8 +3,6 @@
 @import "abstracts/mixins";
 @import "abstracts/functions";
 // Vendors
-@import "vendors/bootstrap";
-@import "vendors/font-awesome";
 // Base styles
 @import "base/typography";
 @import "base/reset";
@@ -15,6 +13,8 @@
 @import "layouts/lake";
 // Components
 @import "components/clouds";
+@import "components/stars-wall";
+@import "components/night-veil";
 @import "components/water";
 @import "components/sun";
 @import "components/duck";

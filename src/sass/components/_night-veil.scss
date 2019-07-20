@@ -1,0 +1,10 @@
+.night-veil{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background-color: $veil-default-color;
+  animation: change-veil-opacity 50s linear infinite;
+}

@@ -1,10 +1,19 @@
-.sun{
+.sun {
   position: absolute;
-  top: 2.5rem;
+  top: 4.5rem;
   left: 50%;
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
-  background-color: $yellow;
-  animation: shine 3s ease-in-out infinite;
+  animation: sun-translation 50s ease-in-out infinite;
+
+  &::after {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: $yellow;
+    animation: shine 3s ease-in-out infinite;
+  }
 }

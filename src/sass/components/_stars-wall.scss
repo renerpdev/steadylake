@@ -1,0 +1,18 @@
+.stars-wall {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: change-star-opacity 50s linear infinite;
+
+  .star {
+    position: absolute;
+    border-radius: 50%;
+    height: .5rem;
+    width: .5rem;
+    background-color: $white_color;
+    box-shadow: 1px 1px .5rem 1px $white_color;
+    animation: shine 3s ease-in-out infinite;
+  }
+}

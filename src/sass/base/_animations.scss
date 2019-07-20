@@ -48,7 +48,7 @@
     background-color: darken($water_color, 5);
   }
   50% {
-    background-color: darken($water_color, 10);
+    background-color: darken($water_color, 25);
   }
   75% {
     background-color: darken($water_color, 5);
@@ -57,3 +57,78 @@
     background-color: $water_color;
   }
 }
+
+@keyframes change-star-opacity {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  45% {
+    opacity: .4;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: .4;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes change-veil-opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sun-translation {
+  0% {
+    transform: translate(0, 0);
+  }
+  48% {
+    transform: translate(25vw, 55vh);
+  }
+  49% {
+    transform: translate(-25vw, 55vh);
+
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes cloud-color-change {
+  0% {
+    background-color: $white_color;
+  }
+
+  25% {
+    background-color: darken($white_color, 10);
+  }
+  50% {
+    background-color: darken($white_color, 60);
+  }
+  75% {
+    background-color: darken($white_color, 10);
+  }
+
+  100% {
+    background-color: $white_color;
+  }
+}
+
+
+
