@@ -1,0 +1,21 @@
+.popup {
+  opacity: 1;
+  visibility: visible;
+  font-size: 1.5rem;
+  background-color: white;
+  z-index: 8;
+  border: 2px dashed $black_color;
+  padding: 2rem;
+  text-align: center;
+  transition: all .2s ease;
+  top: 50%;
+  left: 50%;
+  transform: scale(1);
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: scale(0);
+  }
+}

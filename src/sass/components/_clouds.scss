@@ -2,11 +2,13 @@ $size: 5rem;
 
 .cloud {
   position: relative;
-  transform: translateX(-100%);
   z-index: 3;
-  animation: translate-horz 50s linear infinite;
+  left: -100%;
+  animation: translate-horz $animation-duration/2 linear infinite;
   height: $size;
   width: $size + 1.5rem;
+  display: block;
+  position: absolute;
 
   &::after {
     top: 40%;
@@ -21,15 +23,15 @@ $size: 5rem;
     height: 100%;
     width: 100%;
     border-radius: 60%;
-    opacity: .8;
     top: 0;
     left: 0;
+    box-shadow: 1px -2px 7px transparentize($black_color,.9);
   }
 
   &::after, &::before {
     content: '';
     position: absolute;
     background-color: $white_color;
-    animation: cloud-color-change 50s linear infinite;
+    animation: cloud-color-change $animation-duration linear infinite;
   }
 }

@@ -4,7 +4,7 @@ $tertiary_color: #90A4AE;
 $black_color: #263238;
 $grey_color: #ECEFF1;
 $white_color: #FAFAFA;
-$sky_color: #ffa55b;
+$sky_color: #ffb063;
 $water_color: #2d9ead;
 
 $light-green: #1abd77;
@@ -14,7 +14,7 @@ $maroon: #924444;
 $yellow: #e9ec31;
 
 //Components
-$veil-default-color: transparentize($black_color,.3);
+$veil-default-color: transparentize($black_color, .3);
 
 // HEIGHTS
 $sky-height: 60%;
@@ -23,3 +23,5 @@ $content-height: 95%;
 
 // WIDTHS
 $content-width: 70%;
+
+$animation-duration: 120s;

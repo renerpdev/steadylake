@@ -1,14 +1,13 @@
-.see-flower {
+.sea-flower {
   z-index: 2;
   position: relative;
-  transform: translateX(-100%);
-  display: block;
+  left: -20%;
   height: 5rem;
   width: 8rem;
   border-radius: 45%;
   background-color: $dark-green;
   box-shadow: 0 2px 0 1px darken($dark-green,8);
-  animation: translate-horz 50s linear infinite;
+  animation: translate-horz $animation-duration/3 linear infinite;
 
   &::after,
   &::before {

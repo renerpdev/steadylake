@@ -1,10 +1,10 @@
 @keyframes translate-horz {
   0% {
-    left: 0;
+    left: -20%;
   }
 
   100% {
-    left: 100vw;
+    left: 120%;
   }
 }
 
@@ -19,6 +19,27 @@
 
   100% {
     box-shadow: 0 0 35px 3px $yellow;
+  }
+
+}
+
+@keyframes twinkle {
+  0% {
+    box-shadow: 0 0 1rem 3px $white_color;
+  }
+
+  50% {
+    box-shadow: 0 0 .5rem 1px $white_color;
+  }
+  50% {
+    box-shadow: 0 0 1rem 1px $white_color;
+  }
+  50% {
+    box-shadow: 0 0 .5rem 1px $white_color;
+  }
+
+  100% {
+    box-shadow: 0 0 1rem 3px $white_color;
   }
 }
 
@@ -119,7 +140,7 @@
     background-color: darken($white_color, 10);
   }
   50% {
-    background-color: darken($white_color, 60);
+    background-color: darken($white_color, 70);
   }
   75% {
     background-color: darken($white_color, 10);

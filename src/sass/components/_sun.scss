@@ -5,7 +5,7 @@
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
-  animation: sun-translation 50s ease-in-out infinite;
+  animation: sun-translation $animation-duration ease-in-out infinite;
 
   &::after {
     content: '';
