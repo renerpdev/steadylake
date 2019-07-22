@@ -1,6 +1,6 @@
 # Steady Lake
 
-## <img align="center" alt="steady-lake Logo" src="src/images/day.png" height=80 title="steady-lake"/> <img align="center" alt="steady-lake Logo" src="src/images/night.png" height=80 title="steady-lake"/> <img align="center" alt="steady-lake Logo" src="src/images/sun-rise.png" height=80 title="steady-lake"/>
+## <img align="center" alt="steady-lake screnshot" src="src/images/day.png" height=150 title="steady-lake"/> <img align="center" alt="steady-lake screnshot" src="src/images/night.png" height=150 title="steady-lake"/> <img align="center" alt="steady-lake screnshot" src="src/images/sun-rise.png" height=150 title="steady-lake"/>
 
 ### This is a small project for showing the powers of CSS.
 
