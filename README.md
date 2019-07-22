@@ -6,7 +6,9 @@
 
 ## Description
 
-The whole project is built only with css and jquery was used just for element placement in a random way
+The whole project is built only with css and jquery was used just for element placement in a random way.
+
+ ### You can se de demo [here](https://codepen.io/2rhop/pen/yRYyzJ)
 
 ## Licence
 Copyright (c) 2019 Rene Ricardo. Licensed under the [MIT](https://github.com/2rhop/steadylake/blob/master/LICENSE) license.
