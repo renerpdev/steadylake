@@ -62,6 +62,13 @@ $(function () {
             animation-delay:${animationDelay};
              "></span>`)
     }
+    lake.append(`<div class="monster">
+        <div class="monster__head">
+            <span class="monster__mouth"></span>
+            <span class="monster__eye"></span>
+        </div>
+        <div class="monster__chest"></div>
+    </div>`)
 });
 
 // HIDE POPUP AFTER FEW SECS

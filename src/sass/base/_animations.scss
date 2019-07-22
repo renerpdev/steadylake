@@ -151,5 +151,34 @@
   }
 }
 
+@keyframes monster-eye-rotate {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: .2rem;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes monster-move {
+  0% {
+    right: -105%;
+  }
+
+  50% {
+    right: 40%;
+  }
+
+  100% {
+    right: -105%;
+  }
+}
+
+
 
 

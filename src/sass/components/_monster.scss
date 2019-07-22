@@ -1,0 +1,89 @@
+.monster {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  z-index: 3;
+  animation: monster-move $animation-duration ease-in-out infinite;
+
+  &__head {
+    position: relative;
+    background-color: $monster-color;
+    border-radius: 45%;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset -1px 1px 5px transparentize($black_color, .4);
+  }
+  &::after, &::before {
+    content: '';
+    position: absolute;
+    height: 1.5rem;
+    z-index: -1;
+    width: 1.5rem;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: $monster-color;
+  }
+  &::before {
+    left: 80%;
+    top: 0rem;
+    transform: rotate(35deg);
+  }
+  &::after {
+    top: -1rem;
+    left: 50%;
+  }
+
+  &__mouth {
+    position: absolute;
+    padding: .5rem;
+    transform: rotate(-10deg);
+    left: -3.5rem;
+    top: 30%;
+    border: 1rem solid transparent;
+    border-right: 3rem solid $monster-color;
+  }
+
+  &__eye {
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    background-color: $white_color;
+    border: 1px solid $black_color;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      height: .8rem;
+      width: .8rem;
+      display: block;
+      background-color: $light-green;
+      border-radius: 50%;
+      margin-left: 0;
+      animation: monster-eye-rotate 10s ease-in-out infinite;
+    }
+  }
+
+  &__chest {
+    position: relative;
+    top: -1rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: $monster-color;
+    clip-path: polygon(40% 0, 60% 0, 100% 100%, 0 100%);
+    border-radius: 0 0 20% 20%;
+    overflow: hidden;
+    &::after{
+      content: '';
+      position: absolute;
+      height: 2rem;
+      width: 100%;
+      background-color: darken($monster-color,5);
+      border-radius: 50%;
+      bottom: -1rem;
+      left: 0;
+    }
+  }
+
+}
